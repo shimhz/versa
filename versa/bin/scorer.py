@@ -56,7 +56,8 @@ def get_parser() -> argparse.Namespace:
     parser.add_argument(
         "--io",
         type=str,
-        default="kaldi",
+        default="soundfile",
+        # default="kaldi",
         choices=["kaldi", "soundfile", "dir"],
         help="io interface to use",
     )

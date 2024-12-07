@@ -1,8 +1,8 @@
 from setuptools import setup, find_packages
 
 setup(
-    name='versa-speech-audio-toolkit',
-    version='0.0.1',
+    name="versa-speech-audio-toolkit",
+    version="0.0.1",
     packages=find_packages(),
     install_requires=[
         "audioread",
@@ -54,11 +54,12 @@ setup(
         "s3prl",
         "transformers>=4.36.2",
         "espnet_model_zoo",
+        "scipy",
         "discrete-speech-metrics @ git+https://github.com/Takaaki-Saeki/DiscreteSpeechMetrics.git@v1.0.1",
     ],
-    author='Jiatong Shi',
-    author_email='ftshijt@gmail.com',
-    description='A package for versatile evaluation of speech and audio',
-    url='https://github.com/shinjiwlab/versa.git',
-    keywords='speech metrics',
+    author="Jiatong Shi",
+    author_email="ftshijt@gmail.com",
+    description="A package for versatile evaluation of speech and audio",
+    url="https://github.com/shinjiwlab/versa.git",
+    keywords="speech metrics",
 )

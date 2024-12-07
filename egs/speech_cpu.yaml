@@ -25,7 +25,7 @@
 
 # pesq related metrics
 # -- pesq: perceptual evaluation of speech quality
-- name: pesq
+# - name: pesq
 
 # stoi related metrics
 # -- stoi: short-time objective intelligibility

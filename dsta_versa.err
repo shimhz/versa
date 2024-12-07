@@ -1,0 +1,6 @@
+
+CondaError: Run 'conda init' before 'conda activate'
+
+/home/hyejinsh/miniconda3/envs/speech_quality/bin/python: can't open file '/home/hyejinsh/work/versa/python': [Errno 2] No such file or directory
+srun: error: babel-14-37: task 0: Exited with exit code 2
+/var/spool/slurmd/job3642966/slurm_script: line 17: --pred: command not found
